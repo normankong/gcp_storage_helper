@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+*.code-workspace
+obsolete
+.env
+*.sh
+key
+package-lock.json
+credential.json
+*.zip

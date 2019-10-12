@@ -1,0 +1,35 @@
+{
+  "name": "gcp_storage_helper",
+  "version": "1.0.0",
+  "description": "Cloud function to trigger Google Storage API",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^3.3.1",
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=processUpload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normankong/gcp_upload_helper.git"
+  },
+  "keywords": [
+    "GCP",
+    "Cloud",
+    "Function",
+    "Upload",
+    "API"
+  ],
+  "author": "Norman K K Kong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/normankong/gcp_upload_helper/issues"
+  },
+  "homepage": "https://github.com/normankong/gcp_upload_helper#readme"
+}
